@@ -1,12 +1,15 @@
-# GRAND OFFICIAL
+# THE DARK X BOT
+[![EVILXBOT LOGO](https://telegra.ph/file/d0e0e063d40405fc1bd99.jpg)]
+THE POWERFULL GROUP MANAGEMENT BOT 🔥👿🔥👿🔥 MADE BY (https://t.me/DARKAMAN) 
 
-DEPLOY HERE - [GRAND OFFICIAL](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Flegendx22%2FGRANDROBOT&template=https%3A%2F%2Fgithub.com%2Flegendx22%2FGRANDROBOT)
+
+# GRAND OFFICIAL
+OWNER - [DARKAMAN] https://t.me/DARKAMAN
 [.](https://heroku.com/deploy)
 Credits - [LEGEND X](https://t.me/legendx22)
 
 # TELEGRAM
-Check me on [TELEGRAM](https://t.me/grand50_bot)
-# TUTORIAL [OFFICIAL VIDEO](https://youtu.be/JK9cLTDZUR0)
+Check me on [TELEGRAM](https://t.me/DARKXAMANBOT)
 
 <details>
 <summary> CREDITS </summary>
@@ -14,3 +17,4 @@ Check me on [TELEGRAM](https://t.me/grand50_bot)
 <h1> PROBOY X </h1>
 <h1> TEAMLEGEND </h1>
 </details>
+
