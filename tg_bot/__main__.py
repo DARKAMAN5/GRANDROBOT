@@ -139,18 +139,18 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="𒆜HELP𒆜",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
+                                                                                   InlineKeyboardButton(text="𒆜ƈʀɛǟȶɛʀ𒆜",
                                                                        url="t.me/DARKAMAN")],
-                                                                                   [InlineKeyboardButton(text="ADD GRAND OFFICIAL TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="𒆜ǟɖɖ ɖǟʀӄӼɮօȶ ȶօ ʏօʊʀ ɢʀօʊք𒆜",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/DARKAMAN5/GRANDROBOT")
+                                                                                   InlineKeyboardButton(text="𒆜ֆʊքքօʀȶ𒆜",
+                                                                       url="t.me/DARKAMANSUPPORT")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("JINDA HU BHAI")
+        update.effective_message.reply_text("𒆜ɖǟʀӄӼɮօȶ𒆜  𒆜օռ𒆜  𒆜🔥𒆜")
 
 
 def send_start(bot, update):
