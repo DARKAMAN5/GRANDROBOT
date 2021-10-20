@@ -139,7 +139,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="𒆜HELP𒆜",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="𒆜ɦɛʟք𒆜",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="𒆜ƈʀɛǟȶɛʀ𒆜",
                                                                        url="t.me/DARKAMAN")],
@@ -150,7 +150,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("𒆜ɖǟʀӄӼɮօȶ𒆜 𒆜օռ𒆜 𒆜🔥𒆜")
+        update.effective_message.reply_text("𒆜ɖǟʀӄӼɮօȶ𒆜 𒆜օռ𒆜 🔥𒆜")
 
 
 def send_start(bot, update):
