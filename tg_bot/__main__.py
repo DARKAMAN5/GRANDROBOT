@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/d0e0e063d40405fc1bd99.jpg"
+TECHNO_IMG = "https://te.legra.ph/file/cd4a31c86a2faebdbfa5a.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -143,14 +143,14 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="𒆜ƈʀɛǟȶɛʀ𒆜",
                                                                        url="t.me/DARKAMAN")],
-                                                                                   [InlineKeyboardButton(text="𒆜ǟɖɖ ɖǟʀӄӼɮօȶ ȶօ ʏօʊʀ ɢʀօʊք𒆜",
+                                                                                   [InlineKeyboardButton(text="𒆜ǟɖɖ 𒆜ɖǟʀӄӼɮօȶ𒆜 𒆜ȶօ𒆜 ʏօʊʀ ɢʀօʊք𒆜",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="𒆜ֆʊքքօʀȶ𒆜",
                                                                        url="t.me/DARKAMANSUPPORT")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("𒆜ɖǟʀӄӼɮօȶ𒆜  𒆜օռ𒆜  𒆜🔥𒆜")
+        update.effective_message.reply_text("𒆜ɖǟʀӄӼɮօȶ𒆜 𒆜օռ𒆜 𒆜🔥𒆜")
 
 
 def send_start(bot, update):
